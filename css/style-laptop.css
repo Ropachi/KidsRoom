@@ -1,0 +1,90 @@
+@media screen and (min-width: 64em) {
+
+/* --------------------------------------
+  Header
+-------------------------------------- */
+    .toggle-menu-button {
+        display: none;
+    }
+    .site-menu {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .site-menu ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .site-menu ul li {
+        margin-top:  50px;
+        margin-left:  20px;
+        margin-right: 20px;
+    }
+    .site-menu ul li a:hover,
+    .site-menu ul li a:focus {
+        color: rgba(78, 74, 74, 0.76);
+    }
+    .header-inner {
+        display: flex;
+        flex-direction: row;
+    }
+    .header-inner2 {
+        display: none;
+    }
+
+
+    /* --------------------------------------
+      Main
+    -------------------------------------- */
+    /* Home */
+    .home-main01 li {
+        display: flex;
+    }
+
+    /* Schedule_day */
+    .schedule-main ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .schedule-main li {
+        width: 40%;
+    }
+    .schedule-main li:nth-of-type(2n) {
+        margin-top: 7rem;
+    }
+
+    /* Schedule_year */
+    .schedule-main ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .schedule-main li {
+        width: 40%;
+    }
+    .schedule-main li:nth-of-type(2n) {
+        margin-top: 7rem;
+    }
+
+
+    /* Recruit */
+    #recruit01 {
+        display: flex;
+    }
+
+
+
+    /* --------------------------------------
+      Footer
+    -------------------------------------- */
+    .footer-nav ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.5rem;
+        margin-left: 200px;
+    }
+    footer li {
+        display: flex;
+        margin-left: 1.5rem;
+    }
+}
